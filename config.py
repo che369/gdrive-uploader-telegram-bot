@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
     APP_ID = os.environ.get('APP_ID')
     API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL', postgres://zndyegricvvqsf:9e78cd25622461163cabd7e9250c56270d6505291ecd7650a653674916919999@ec2-34-198-103-34.compute-1.amazonaws.com:5432/d5le683074l1mn)
+    DATABASE_URL = os.environ.get('DATABASE_URL', 'postgres://zndyegricvvqsf:9e78cd25622461163cabd7e9250c56270d6505291ecd7650a653674916919999@ec2-34-198-103-34.compute-1.amazonaws.com:5432/d5le683074l1mn')
   else:
     BOT_TOKEN = '' # Get it from https://t.me/BotFather
     APP_ID = '' # Get it from my.telegram.org/apps
